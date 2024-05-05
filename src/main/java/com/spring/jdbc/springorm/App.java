@@ -8,6 +8,6 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Is commit is working fine?" );
+        System.out.println( "test again!" );
     }
 }
