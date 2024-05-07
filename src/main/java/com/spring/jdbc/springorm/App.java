@@ -49,8 +49,7 @@ public class App {
 					} else {
 						System.out.println("Something is wrong, please try again!\n\n");
 					}
-					System.out.println(
-							"\n - - - - - - - - - - - - - - - - - - - -  - - - - - - - - - - - - - - - - - - - - - - - - - - \n");
+					System.out.println("\n - - - - - - - - - - - - - - - - - - - -  - - - - - - - - - - - - - - - - - - - - - - - - - - \n");
 					break;
 
 				case 2:
@@ -61,8 +60,7 @@ public class App {
 								+ student.getStudentName() + "\n" + "Student Address: " + student.getStudentAddress()
 								+ "\n");
 					}
-					System.out.println(
-							"\n - - - - - - - - - - - - - - - - - - - -  - - - - - - - - - - - - - - - - - - - - - - - - - - \n");
+					System.out.println("\n - - - - - - - - - - - - - - - - - - - -  - - - - - - - - - - - - - - - - - - - - - - - - - - \n");
 					break;
 
 				case 3:
@@ -81,8 +79,7 @@ public class App {
 					int deleteId = Integer.parseInt(bufferedReader.readLine());
 					studentDao.deleteStudent(deleteId);
 					System.out.println("\n\nThe student's information successtully deleted!\n");
-					System.out.println(
-							"\n - - - - - - - - - - - - - - - - - - - -  - - - - - - - - - - - - - - - - - - - - - - - - - - \n");
+					System.out.println("\n - - - - - - - - - - - - - - - - - - - -  - - - - - - - - - - - - - - - - - - - - - - - - - - \n");
 					break;
 
 				case 5:
@@ -121,8 +118,7 @@ public class App {
 						break;
 					}
 
-					System.out.println(
-							"\n - - - - - - - - - - - - - - - - - - - -  - - - - - - - - - - - - - - - - - - - - - - - - - - \n");
+					System.out.println("\n - - - - - - - - - - - - - - - - - - - -  - - - - - - - - - - - - - - - - - - - - - - - - - - \n");
 					break;
 
 				case 0:
